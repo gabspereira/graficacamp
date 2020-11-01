@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Gráfica Campinas</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<!-- Navbar goes here -->
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img class="responsive-img" src="img/logo_graficacamp.png" height="auto"></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="grafica-orcamento.html">Orçamento</a></li>
+        <li><a href="href=https://wa.me/5519983062206?text=Ola%20gostaria%20de%realizar%20um%20%orcamento"><i class="material-icons left">phone</i>Tel. (19) 99714-1842</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="grafica-orcamento.html">Orçamento</a></li>
+        <li><i class="material-icons">local-phone</i><a>Tel. (19) 99714 1842</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Page Layout here -->
+<div class="row">
+
+    <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was visibilityed -->
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <div class="col s12 m12 l6">
+          <h3>Solicite seu Orçamento</h3>
+          <form action="https://formspree.io/f/mdopalwa" method="POST">
+            <label>Nome:<input type="text" name="nome" placeholder="Nome"></label>
+            <label>Email:<input type="text" name="_replyto" placeholder="Email"></label>
+            <label>Telefone:<input type="text" name="phone" placeholder="Telefone: XXXX-XXXX"></label>
+            <label>Descrição:<textarea name="message" placeholder="Descreva aqui sua solicitação de orçamento"></textarea></label>
+            <!-- your other form fields go here -->
+            <button class="btn waves-effect waves-light" type="submit">Enviar<i class="material-icons right">send</i></button>
+          </form>
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Contatos</h5>
+          <ul>
+            <li><img class="responsive-img" src="img/impressao-digital-.png"></li>
+            <li><img class="responsive-img" src="img/impressao-digital-laser-.png"></li>
+          </ul>
+        </div>
+
+
+      </div>
+</div>
+
+
+      <!-- Footer -->
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Horário de Funcionamento</h5>
+              <p class="grey-text text-lighten-4">Seg a Sex, 08h as 18h</p>
+              <p class="grey-text text-lighten-4">Sáb 9h as 12h</p>
+              <div>
+                <iframe class="responsive-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2474775402834!2d-47.085490485909475!3d-22.904241085013123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c89bdd27f7bf%3A0xbfc620ccf81c90e9!2sR.%20Joaquim%20Vilac%2C%20244%20-%20Vila%20Teixeira%2C%20Campinas%20-%20SP%2C%2013032-385!5e0!3m2!1spt-BR!2sbr!4v1602102964492!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+            <div class="col l6 s12">
+              <h5 class="white-text">Contatos</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">call</i> (19) 98451 9285 / 99714 1842 (Samuel)</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">call</i> (19) 98306 2206 (Gabriel)</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">email</i> graficacamp.papelaria@gmail.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">place</i> Rua Joaquim Vilac, 244, Vila Teixeira, Campinas/SP</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 GráficaCamp. Gráfica Rápida, Comunicação Visual e Papelaria.
+          <a class="grey-text text-lighten-4 right" href="#!">Gabaritos</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+</div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/hide_box.js"></script>
+
+  <script>
+  $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+      });
+  </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,487 @@
+function showAll()  {
+  document.getElementById("cartaovisita").style.display = "block";
+  document.getElementById("folhetos").style.display = "block";
+  document.getElementById("adesivos").style.display = "block";
+  document.getElementById("folder").style.display = "block";
+  document.getElementById("fachadas").style.display = "block";
+  document.getElementById("placas").style.display = "block";
+  document.getElementById("kit").style.display = "block";
+  document.getElementById("tag").style.display = "block";
+  document.getElementById("crachas").style.display = "block";
+  document.getElementById("bottons").style.display = "block";
+  document.getElementById("rotulos").style.display = "block";
+  document.getElementById("bottons").style.display = "block";
+  document.getElementById("faixas").style.display = "block";
+  document.getElementById("ima").style.display = "block";
+  document.getElementById("panfletos").style.display = "block";
+  document.getElementById("flyer").style.display = "block";
+  document.getElementById("catalogo").style.display = "block";
+  document.getElementById("cardapio").style.display = "block";
+  document.getElementById("carimbos").style.display = "block";
+  document.getElementById("apostilas").style.display = "block";
+  document.getElementById("sinalizacao").style.display = "block";
+  document.getElementById("convites").style.display = "block";
+}
+
+function filterAdesivos()  {
+  document.getElementById("adesivos").style.display = "block";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "block";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterCartaoVisita()  {
+  document.getElementById("cartaovisita").style.display = "block";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFolhetos()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "block";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "block";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFolder()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "block";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFachadas()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "block";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterSinalizacao()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "block";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "block";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterCrachas()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "block";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterCrachas()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "block";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterTimbrados()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "block";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterBottons()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "block";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFaixas()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "block";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterIma()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "block";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFlyer()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "block";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterCardapios()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "block";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterCarimbos()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "block";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterFlyer()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "block";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterApostilas()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "block";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}
+
+function filterConvites()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "none";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "block";
+}
+
+function filterCatalogos()  {
+  document.getElementById("cartaovisita").style.display = "none";
+  document.getElementById("folhetos").style.display = "none";
+  document.getElementById("adesivos").style.display = "none";
+  document.getElementById("folder").style.display = "none";
+  document.getElementById("fachadas").style.display = "none";
+  document.getElementById("placas").style.display = "none";
+  document.getElementById("kit").style.display = "none";
+  document.getElementById("tag").style.display = "none";
+  document.getElementById("crachas").style.display = "none";
+  document.getElementById("bottons").style.display = "none";
+  document.getElementById("rotulos").style.display = "none";
+  document.getElementById("faixas").style.display = "none";
+  document.getElementById("ima").style.display = "none";
+  document.getElementById("panfletos").style.display = "none";
+  document.getElementById("flyer").style.display = "none";
+  document.getElementById("catalogo").style.display = "block";
+  document.getElementById("cardapio").style.display = "none";
+  document.getElementById("carimbos").style.display = "none";
+  document.getElementById("apostilas").style.display = "none";
+  document.getElementById("sinalizacao").style.display = "none";
+  document.getElementById("convites").style.display = "none";
+}

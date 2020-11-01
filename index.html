@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Gráfica Campinas</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<!-- Navbar goes here -->
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img class="responsive-img" src="img/logo_graficacamp.png" height="auto"></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="grafica-orcamento.html">Orçamento</a></li>
+        <li><a href="https://wa.me/5519983062206?text=Ola%20gostaria%20de%realizar%20um%20%orcamento"><i class="material-icons left">phone</i>Tel. (19) 99714-1842</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="grafica-orcamento.html">Orçamento</a></li>
+        <li><i class="material-icons">local-phone</i><a>Tel. (19) 99714 1842</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Page Layout here -->
+<div class="row">
+
+  <!-- Menu Principal -->
+    <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was visibilityed -->
+      <div class="hide-on-small-only">
+            <div class="toc-wrapper pin-top" style="top: 0px;">
+              <div style="height: 1px;">
+                <h5>Produtos</h5>
+                <ul class="section table-of-contents">
+                  <li><a href="#" class="active" onclick="showAll()">Mostrar Todos</a></li>
+                  <li><a href="#" onclick="filterAdesivos()">Adesivos</a></li>
+                  <li><a href="#" onclick="filterApostilas()">Apostilas</a></li>
+                  <li><a href="#" onclick="filterBanner()">Banner/Lonas</a></li>
+                  <li><a href="#" onclick="filterBottons()">Bottons</a></li>
+                  <li><a href="#" onclick="filterCartaoVisita()">Cartões de Visitas</a></li>
+                  <li><a href="#" onclick="filterCartaz()">Cartaz/Poster</a></li>
+                  <li><a href="#" onclick="filterCarimbos()">Carimbos</a></li>
+                  <li><a href="#" onclick="filterCrachas()">Crachás</a></li>
+                  <li><a href="#" onclick="filterCardapios()">Cardápios</a></li>
+                  <li><a href="#" onclick="filterCatalogos()">Catálogos</a></li>
+                  <li><a href="#" onclick="filterConvites()">Convites</a></li>
+                  <li><a href="#" onclick="filterOther()">Escaneamento</a></li>
+                  <li><a href="#" onclick="filterOther()">Encadernação</a></li>
+                  <li><a href="#" onclick="filterFachadas()">Fachadas</a></li>
+                  <li><a href="#" onclick="filterFaixas()">Faixas</a></li>
+                  <li><a href="#" onclick="filterFolder()">Folder</a></li>
+                  <li><a href="#" onclick="filterFlyer()">Flyer</a></li>
+                  <li><a href="#" onclick="filterIma()">Imã de geladeira</a></li>
+                  <li><a href="#" onclick="filterFolhetos()">Panfletos</a></li>
+                  <li><a href="#" onclick="filterSinalizacao()">Placas de sinalização</a></li>
+                  <li><a href="#" onclick="filterOther()">Plastificação</a></li>
+                  <li><a href="#" onclick="filterOther()">Plotagem</a></li>
+                  <li><a href="#" onclick="filterTimbrados()">Timbrados/Receituários</a></li>
+                  <li><a href="#" onclick="filterAdesivos()">Rótulos e Etiquetas</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was visibilityed -->
+
+<!-- UI para Desktop e Tablets -->
+      <div class="hide-on-small-only">
+
+        <!-- Slides -->
+          <div class="main-wrapper">
+            <div class="carousel carousel-slider">
+              <a class="carousel-item" href="#one!"><img src="https://d2ofpir5gh0cbr.cloudfront.net/files/Portfolio-Julho/LP%20Placas/home-desktop-placassinalizacao.jpg"></a>
+              <a class="carousel-item" href="#three!"><img src="https://d2ofpir5gh0cbr.cloudfront.net/files/Portf%C3%B3lio%20-%20Mar%C3%A7o/HOME%20BANNER%20E%20LANDING%20PAGE%20CORONA/banner-home-desktop-kit-covid19..jpg"></a>
+              <a class="carousel-item" href="#four!"><img src="https://d2ofpir5gh0cbr.cloudfront.net/files/2020-01/montagem-de-arte-montagem-de-arte-1122x350-texto.png"></a>
+              <a class="carousel-item" href="#four!"><img src="https://d2ofpir5gh0cbr.cloudfront.net/files/Portfolio-Junho/LP%20ADESIVOS/1122x350px-banner-landing.jpg"></a>
+            </div>
+          </div>
+
+      </div>
+
+<!-- UI para Mobile -->
+      <div class="hide-on-med-and-up">
+        <div class="main-wrapper">
+          <a herf="#"><img class="responsive-img" src="https://d2ofpir5gh0cbr.cloudfront.net/files/1122x350-televendas-2.0.jpg"></a>
+        </div>
+      </div>
+
+<!-- Mostruários -->
+      <div class="row">
+
+        <div class="col s12 m6 l4" id="cartaovisita">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/cartoes_de_visitas_graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Cartão de Visita</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4" id="folhetos">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/folheto_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Folhetos</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="adesivos">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/adesivos_graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Adesivos</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="folder">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/Folder.jpg">
+            </div>
+            <div class="card-content">
+              <p>Folder</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4" id="fachadas">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/fachada_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Fachadas</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="placas">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/placasloja_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Placas de Sinalização</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="kit">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/timbrado_cartao_caneta_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Kit da sua Marca</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="tag">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/tag_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Tag de Produtos</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="crachas">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/CRACHA.jpg">
+            </div>
+            <div class="card-content">
+              <p>Crachas</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="bottons">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/Bottom_GC.jpg">
+            </div>
+            <div class="card-content">
+              <p>Bottons</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4" id="rotulos">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ALCOOLGEL.jpg">
+            </div>
+            <div class="card-content">
+              <p>Rótulos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4" id="sinalizacao">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/placa-obrigatorio-mascara-colorido-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Placas de Sinalização</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="faixas">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/faixas-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Faixas</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="ima">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ima-geladeira-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Imã de Geladeira</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="panfletos">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/panfletos-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Panfletos</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="flyer">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/flyer-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Flyers</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="convites">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/convite-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Convites</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="catalogo">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/catalogo-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Catálogo</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="cardapio">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/cardapio-papel-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Cardápio</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l4" id="carimbos">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/carimbos-graficacamp.jpg">
+            </div>
+            <div class="card-content">
+              <p>Carimbos</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s12 m6 l4" id="apostilas">
+          <div class="card">
+            <div class="card-image">
+              <img class="responsive-img" src="img/apostilas-grafica-camp-1024x678.jpg">
+            </div>
+            <div class="card-content">
+              <p>Apostilas</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <div class="col s12 m12 l6">
+          <h3>Solicite seu Orçamento</h3>
+          <form action="https://formspree.io/f/mdopalwa" method="POST">
+            <label>Nome:<input type="text" name="nome" placeholder="Nome"></label>
+            <label>Email:<input type="text" name="_replyto" placeholder="Email"></label>
+            <label>Telefone:<input type="text" name="phone" placeholder="Telefone: XXXX-XXXX"></label>
+            <label>Descrição:<textarea name="message" placeholder="Descreva aqui sua solicitação de orçamento"></textarea></label>
+            <!-- your other form fields go here -->
+            <button class="btn waves-effect waves-light" type="submit">Enviar<i class="material-icons right">send</i></button>
+          </form>
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Contatos</h5>
+          <ul>
+            <li><img class="responsive-img" src="img/impressao-digital-.png"></li>
+            <li><img class="responsive-img" src="img/impressao-digital-laser-.png"></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+
+      <!-- Footer -->
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Horário de Funcionamento</h5>
+              <p class="grey-text text-lighten-4">Seg a Sex, 08h as 18h</p>
+              <p class="grey-text text-lighten-4">Sáb 9h as 12h</p>
+              <div>
+                <iframe class="responsive-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2474775402834!2d-47.085490485909475!3d-22.904241085013123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c89bdd27f7bf%3A0xbfc620ccf81c90e9!2sR.%20Joaquim%20Vilac%2C%20244%20-%20Vila%20Teixeira%2C%20Campinas%20-%20SP%2C%2013032-385!5e0!3m2!1spt-BR!2sbr!4v1602102964492!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+            <div class="col l6 s12">
+              <h5 class="white-text">Contatos</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">call</i> (19) 98451 9285 / 99714 1842 (Samuel)</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">call</i> (19) 98306 2206 (Gabriel)</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">email</i> graficacamp.papelaria@gmail.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons tiny">place</i> Rua Joaquim Vilac, 244, Vila Teixeira, Campinas/SP</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 GráficaCamp. Gráfica Rápida, Comunicação Visual e Papelaria.
+          <a class="grey-text text-lighten-4 right" href="#!">Gabaritos</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+</div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/hide_box.js"></script>
+
+  <script>
+  $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+      });
+  </script>
+
+
+  </body>
+</html>
